@@ -3,8 +3,8 @@ import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import cookieParser from 'cookie-parser';
 import cookieSession from "cookie-session";
-import routes from "./src/routes/routes.js"
-import connectDB from "./src/config/db.js"
+import routes from "./routes/routes.js"
+import connectDB from "./config/db.js"
 
 dotenv.config();
 
